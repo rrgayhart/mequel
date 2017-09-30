@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'user',
   password: 'password',
-  database: 'mequel-development'
+  database: 'mequel_development'
 });
 
 module.exports = connection;
